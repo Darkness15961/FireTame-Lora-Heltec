@@ -1,0 +1,31 @@
+{
+  "application_id": "heltec-v3-peru",
+  "ttn_cluster": "nam1",
+  "frequency_plan": "US915 FSB2",
+  "uplink_interval_s": 60,
+  "f_port": 2,
+  "schema_version": 1,
+  "nodes": [
+    {
+      "name": "Nodo 1",
+      "ttn_device_id": "heltec-wifi-lora-32-v3",
+      "deveui": "70B3D57ED0079581",
+      "chip_id": "E4B4B743CA48",
+      "firmware": "firmware/nodo-1/nodo-1.ino"
+    },
+    {
+      "name": "Nodo 2",
+      "ttn_device_id": "heltec-nodo-2",
+      "deveui": "70B3D57ED0079582",
+      "chip_id": "60BCB743CA48",
+      "firmware": "firmware/nodo-2/nodo-2.ino"
+    },
+    {
+      "name": "Nodo 3",
+      "ttn_device_id": "heltec-nodo-3",
+      "deveui": "70B3D57ED0079584",
+      "chip_id": "60ACB743CA48",
+      "firmware": "firmware/nodo-3/nodo-3.ino"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Secrets locales (no subir)
+.env
+.env.local
+.env.*.local
+!.env.example
+**/credentials.local.*
+**/secrets.local.*
+config/credentials.local.md
+
+# Credenciales firmware Arduino (generadas desde .env)
+firmware/**/secrets.h
+!firmware/**/secrets.example.h
+
+# Arduino build
+**/build/
+**/.arduino/
+*.elf
+*.bin
+*.map
+
+# Node / Vue (si se añade web/)
+node_modules/
+dist/
+.turbo/
+.cache/
+
+# Logs
+*.log
